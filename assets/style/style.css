@@ -1,0 +1,1514 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+@font-face {
+  font-family: Arial, Helvetica, sans-serif;
+  src: url("../fonts/verdana/Verdana.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* body {
+  overflow-x: hidden;
+}
+* body .container_website header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  z-index: 10000 !important;
+}
+* body .container_website header .bar {
+  display: none;
+}
+* body .container_website header .header_logoItem {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+* body .container_website header .header_logoItem .header_logoItem_img {
+  width: 92px;
+  height: 30px;
+}
+* body .container_website header .header_logoItem .header_logoItem_img img {
+  width: 100%;
+  height: 100%;
+}
+* body .container_website header .header_logoItem nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+* body .container_website header .header_logoItem nav > ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 27px;
+}
+* body .container_website header .header_logoItem nav > ul li a {
+  text-decoration: none;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #242424;
+  transition: all 0.4s;
+}
+* body .container_website header .header_logoItem nav > ul li a:hover {
+  text-decoration: underline;
+}
+* body .container_website header .header_logoItem nav > ul li .dropdown button {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #242424;
+}
+* body .container_website header .header_loginBtn button {
+  padding: 7.6px 28.65px 8.4px 29.35px;
+  background: rgba(255, 255, 255, 0.002);
+  box-shadow: inset 0px 0px 0px 1px #067a46;
+  border-radius: 4px;
+  color: #067a46;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  transition: all 0.4s;
+}
+* body .container_website header .header_loginBtn button:hover {
+  background-color: #067a46;
+  color: #fff;
+}
+* body .container_website main {
+  width: 100%;
+}
+* body .container_website main .section_Banner {
+  width: 100%;
+  height: 100vh;
+  background: url("https://img.hellofresh.com/c_fill,f_auto,fl_lossy,h_820,q_auto:eco,w_1534/hellofresh_website/us/cms/homepage/bannersUS/Home_Page_-_Top_Banner__-_Mobile_v3.jpg")
+    no-repeat;
+  background-size: cover;
+  background-position: 65% 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* body .container_website main .section_Banner .section_Banner_item h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 37px;
+  line-height: 48px;
+  text-align: center;
+  color: #000000;
+}
+* body .container_website main .section_Banner .section_Banner_item p {
+  margin-top: 40px;
+  text-align: center;
+  color: #343434;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
+* body .container_website main .section_Banner .section_Banner_item button {
+  display: block;
+  margin: auto;
+  margin-top: 33px;
+  background: #067a46;
+  border-radius: 4px;
+  padding: 11.6px 23.375px 12.4px 24px;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  border: 1.5px solid #067a46;
+  transition: all 0.4s;
+}
+*
+  body
+  .container_website
+  main
+  .section_Banner
+  .section_Banner_item
+  button:hover {
+  background-color: transparent;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  color: #067a46;
+}
+* body .container_website main .section_Banner .section_Banner_item a {
+  display: block;
+  margin: auto;
+  margin-top: 80px;
+  width: 50px;
+  height: 50px;
+  background: #ffffff;
+  border: 1px solid #067a46;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+* body .container_website main .section_Banner .section_Banner_item a svg path {
+  transition: all 0.3s;
+}
+* body .container_website main .section_Banner .section_Banner_item a:hover {
+  background-color: #067a46;
+}
+*
+  body
+  .container_website
+  main
+  .section_Banner
+  .section_Banner_item
+  a:hover
+  svg
+  path {
+  fill: #fff;
+}
+* body .container_website main .section_WhyHelloFresh {
+  background: #f8f8f8;
+  padding: 40px 0;
+}
+* body .container_website main .section_WhyHelloFresh h1 {
+  text-align: center;
+  letter-spacing: -0.3px;
+  color: #242424;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+}
+*
+  body
+  .container_website
+  main
+  .section_WhyHelloFresh
+  .section_WhyHelloFresh_row {
+  margin: auto;
+  width: 80%;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+}
+*
+  body
+  .container_website
+  main
+  .section_WhyHelloFresh
+  .section_WhyHelloFresh_row
+  .section_WhyHelloFresh_row_col
+  .section_WhyHelloFresh_row_col_img {
+  width: 120px;
+  height: 120px;
+  margin: auto;
+}
+*
+  body
+  .container_website
+  main
+  .section_WhyHelloFresh
+  .section_WhyHelloFresh_row
+  .section_WhyHelloFresh_row_col
+  .section_WhyHelloFresh_row_col_img
+  img {
+  width: 100%;
+  height: 100%;
+}
+*
+  body
+  .container_website
+  main
+  .section_WhyHelloFresh
+  .section_WhyHelloFresh_row
+  .section_WhyHelloFresh_row_col
+  h3 {
+  margin-top: 28.8px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  color: #242424;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+}
+*
+  body
+  .container_website
+  main
+  .section_WhyHelloFresh
+  .section_WhyHelloFresh_row
+  .section_WhyHelloFresh_row_col
+  p {
+  margin-top: 13px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #242424;
+}
+* body .container_website main .section_WhyHelloFresh button {
+  padding: 7.6px 28.65px 8.4px 29.35px;
+  background: rgba(255, 255, 255, 0.002);
+  box-shadow: inset 0px 0px 0px 1px #067a46;
+  border-radius: 4px;
+  color: #067a46;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  transition: all 0.4s;
+  margin: auto;
+  display: block;
+  margin-top: 26.4px;
+  padding: 11.6px 23.875px 12.4px 24px;
+}
+* body .container_website main .section_WhyHelloFresh button:hover {
+  background-color: #067a46;
+  color: #fff;
+}
+* body .container_website main .section_ViewOurPlans {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 127px;
+  padding: 22px 0;
+}
+*
+  body
+  .container_website
+  main
+  .section_ViewOurPlans
+  .section_ViewOurPlans_title
+  h2 {
+  letter-spacing: -0.3px;
+  color: #242424;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 32px;
+  text-align: center;
+}
+*
+  body
+  .container_website
+  main
+  .section_ViewOurPlans
+  .section_ViewOurPlans_title
+  ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+*
+  body
+  .container_website
+  main
+  .section_ViewOurPlans
+  .section_ViewOurPlans_title
+  ul
+  li
+  a {
+  text-decoration: none;
+  color: #242424;
+  font-family: "Segoe UI Symbol";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 34px;
+  transition: all 0.4s;
+}
+*
+  body
+  .container_website
+  main
+  .section_ViewOurPlans
+  .section_ViewOurPlans_title
+  ul
+  li
+  a:hover {
+  color: #067a46;
+  text-decoration: underline;
+}
+*
+  body
+  .container_website
+  main
+  .section_ViewOurPlans
+  .section_ViewOurPlans_title
+  ul
+  li:last-of-type
+  a {
+  color: #067a46;
+  text-decoration: underline;
+}
+*
+  body
+  .container_website
+  main
+  .section_ViewOurPlans
+  .section_ViewOurPlans_title
+  button {
+  display: block;
+  margin: auto;
+  margin-top: 33px;
+  background: #067a46;
+  border-radius: 4px;
+  padding: 11.6px 23.375px 12.4px 24px;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  border: 1.5px solid #067a46;
+  transition: all 0.4s;
+  display: block;
+  width: 100%;
+}
+*
+  body
+  .container_website
+  main
+  .section_ViewOurPlans
+  .section_ViewOurPlans_title
+  button:hover {
+  background-color: transparent;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  color: #067a46;
+}
+* body .container_website main .section_RecipeWeek {
+  margin-top: 90.2px;
+}
+* body .container_website main .section_RecipeWeek h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  color: #242424;
+}
+* body .container_website main .section_RecipeWeek > p {
+  margin-top: 5.6px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #242424;
+}
+* body .container_website main .section_RecipeWeek .section_RecipeWeek_row {
+  margin-top: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+}
+*
+  body
+  .container_website
+  main
+  .section_RecipeWeek
+  .section_RecipeWeek_row
+  .section_RecipeWeek_row_col {
+  width: 262px;
+  height: 315px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-left: 12px;
+  gap: 9px;
+  position: relative;
+}
+*
+  body
+  .container_website
+  main
+  .section_RecipeWeek
+  .section_RecipeWeek_row
+  .section_RecipeWeek_row_col::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 45%, #000000 100%);
+  filter: drop-shadow(0px 3px 3px #e4e4e4);
+  border-radius: 5px;
+}
+*
+  body
+  .container_website
+  main
+  .section_RecipeWeek
+  .section_RecipeWeek_row
+  .section_RecipeWeek_row_col
+  .section_RecipeWeek_row_col_title {
+  position: relative;
+  z-index: 2;
+}
+*
+  body
+  .container_website
+  main
+  .section_RecipeWeek
+  .section_RecipeWeek_row
+  .section_RecipeWeek_row_col
+  .section_RecipeWeek_row_col_title
+  h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 32px;
+  letter-spacing: -0.3px;
+  color: #ffffff;
+}
+*
+  body
+  .container_website
+  main
+  .section_RecipeWeek
+  .section_RecipeWeek_row
+  .section_RecipeWeek_row_col
+  .section_RecipeWeek_row_col_title
+  p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 21px;
+  color: #242424;
+  background: #ffcf70;
+  border-radius: 3px;
+  padding: 2px 8px;
+}
+*
+  body
+  .container_website
+  main
+  .section_RecipeWeek
+  .section_RecipeWeek_row
+  .section_RecipeWeek_row_col:nth-of-type(1) {
+  background: url("../image/recipe1.png");
+}
+*
+  body
+  .container_website
+  main
+  .section_RecipeWeek
+  .section_RecipeWeek_row
+  .section_RecipeWeek_row_col:nth-of-type(2) {
+  background: url("../image/recipe2.png");
+}
+*
+  body
+  .container_website
+  main
+  .section_RecipeWeek
+  .section_RecipeWeek_row
+  .section_RecipeWeek_row_col:nth-of-type(2)
+  .section_RecipeWeek_row_col_title
+  p {
+  background: #476b2d;
+  color: #fff;
+}
+*
+  body
+  .container_website
+  main
+  .section_RecipeWeek
+  .section_RecipeWeek_row
+  .section_RecipeWeek_row_col:nth-of-type(3) {
+  background: url("../image/recipe3.png");
+}
+*
+  body
+  .container_website
+  main
+  .section_RecipeWeek
+  .section_RecipeWeek_row
+  .section_RecipeWeek_row_col:nth-of-type(3)
+  .section_RecipeWeek_row_col_title
+  p {
+  background: #37938a;
+  color: #fff;
+}
+*
+  body
+  .container_website
+  main
+  .section_RecipeWeek
+  .section_RecipeWeek_row
+  .section_RecipeWeek_row_col:nth-of-type(4) {
+  background: url("../image/recipe4.webp");
+}
+*
+  body
+  .container_website
+  main
+  .section_RecipeWeek
+  .section_RecipeWeek_row
+  .section_RecipeWeek_row_left {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  width: 40px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #067a46;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+*
+  body
+  .container_website
+  main
+  .section_RecipeWeek
+  .section_RecipeWeek_row
+  .section_RecipeWeek_row_left
+  svg
+  path {
+  transition: all 0.4s;
+}
+*
+  body
+  .container_website
+  main
+  .section_RecipeWeek
+  .section_RecipeWeek_row
+  .section_RecipeWeek_row_left:hover {
+  background-color: #067a46;
+}
+*
+  body
+  .container_website
+  main
+  .section_RecipeWeek
+  .section_RecipeWeek_row
+  .section_RecipeWeek_row_left:hover
+  svg
+  path {
+  fill: #fff;
+}
+*
+  body
+  .container_website
+  main
+  .section_RecipeWeek
+  .section_RecipeWeek_row
+  .section_RecipeWeek_row_right {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  width: 40px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #067a46;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+*
+  body
+  .container_website
+  main
+  .section_RecipeWeek
+  .section_RecipeWeek_row
+  .section_RecipeWeek_row_right
+  svg
+  path {
+  transition: all 0.4s;
+}
+*
+  body
+  .container_website
+  main
+  .section_RecipeWeek
+  .section_RecipeWeek_row
+  .section_RecipeWeek_row_right:hover {
+  background-color: #067a46;
+}
+*
+  body
+  .container_website
+  main
+  .section_RecipeWeek
+  .section_RecipeWeek_row
+  .section_RecipeWeek_row_right:hover
+  svg
+  path {
+  fill: #fff;
+}
+* body .container_website main .section_RecipeWeek button {
+  padding: 7.6px 28.65px 8.4px 29.35px;
+  background: rgba(255, 255, 255, 0.002);
+  box-shadow: inset 0px 0px 0px 1px #067a46;
+  border-radius: 4px;
+  color: #067a46;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  transition: all 0.4s;
+  display: block;
+  margin: auto;
+  margin-top: 49.2px;
+}
+* body .container_website main .section_RecipeWeek button:hover {
+  background-color: #067a46;
+  color: #fff;
+}
+* body .container_website main .section_HelloFreshPics {
+  margin-top: 80px;
+}
+* body .container_website main .section_HelloFreshPics h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  color: #242424;
+}
+* body .container_website main .section_HelloFreshPics p {
+  margin-top: 30.5px;
+  text-align: center;
+  color: #242424;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+*
+  body
+  .container_website
+  main
+  .section_HelloFreshPics
+  .section_HelloFreshPics_row {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px 15px;
+  width: 80%;
+  margin: auto;
+}
+*
+  body
+  .container_website
+  main
+  .section_HelloFreshPics
+  .section_HelloFreshPics_row
+  .section_HelloFreshPics_row_col {
+  flex: 1 0 200px;
+  width: 262px;
+}
+*
+  body
+  .container_website
+  main
+  .section_HelloFreshPics
+  .section_HelloFreshPics_row
+  .section_HelloFreshPics_row_col
+  .section_HelloFreshPics_row_col_img {
+  height: 328px;
+}
+*
+  body
+  .container_website
+  main
+  .section_HelloFreshPics
+  .section_HelloFreshPics_row
+  .section_HelloFreshPics_row_col
+  .section_HelloFreshPics_row_col_img
+  img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+*
+  body
+  .container_website
+  main
+  .section_HelloFreshPics
+  .section_HelloFreshPics_row
+  .section_HelloFreshPics_row_col
+  h3 {
+  margin-top: 28.4px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  color: #242424;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+}
+*
+  body
+  .container_website
+  main
+  .section_HelloFreshPics
+  .section_HelloFreshPics_row
+  .section_HelloFreshPics_row_col
+  p {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 11.4px;
+  align-items: center;
+  text-align: center;
+  color: #242424;
+}
+* body .container_website main .section_Plans {
+  margin-top: 50px;
+  background: url("../image/footerBanner.png") no-repeat;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* body .container_website main .section_Plans .section_Plans_item {
+  padding: 0 40px;
+}
+* body .container_website main .section_Plans .section_Plans_item h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 48px;
+  text-align: center;
+  color: #000000;
+}
+* body .container_website main .section_Plans .section_Plans_item p {
+  margin-top: 40px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #343434;
+}
+* body .container_website main .section_Plans .section_Plans_item button {
+  margin-top: 33px;
+  display: block;
+  margin: auto;
+  margin-top: 33px;
+  background: #067a46;
+  border-radius: 4px;
+  padding: 11.6px 23.375px 12.4px 24px;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  border: 1.5px solid #067a46;
+  transition: all 0.4s;
+}
+* body .container_website main .section_Plans .section_Plans_item button:hover {
+  background-color: transparent;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  color: #067a46;
+}
+* body .container_website main .section_QA {
+  margin-top: 32px;
+  background-color: #f8f8f8;
+  padding: 32px 0;
+}
+* body .container_website main .section_QA h1 {
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 37px;
+  line-height: 48px;
+  text-align: center;
+  color: #242424;
+}
+* body .container_website main .section_QA .section_QA_row {
+  width: 70%;
+  margin: auto;
+  margin-top: 45px;
+}
+* body .container_website main .section_QA .section_QA_row .accordion {
+  --bs-accordion-bg: transparent;
+}
+* body .container_website footer {
+  margin-top: 50px;
+}
+* body .container_website footer .footer_Navs {
+  width: 100%;
+  display: flex;
+}
+* body .container_website footer .footer_Navs .footer_Navs_row {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 6%;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+*
+  body
+  .container_website
+  footer
+  .footer_Navs
+  .footer_Navs_row
+  .footer_Navs_row_col {
+  width: 25%;
+  flex: 1 0 200px;
+}
+*
+  body
+  .container_website
+  footer
+  .footer_Navs
+  .footer_Navs_row
+  .footer_Navs_row_col
+  h3 {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #242424;
+}
+*
+  body
+  .container_website
+  footer
+  .footer_Navs
+  .footer_Navs_row
+  .footer_Navs_row_col
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+*
+  body
+  .container_website
+  footer
+  .footer_Navs
+  .footer_Navs_row
+  .footer_Navs_row_col
+  ul
+  li {
+  margin-top: 5px;
+}
+*
+  body
+  .container_website
+  footer
+  .footer_Navs
+  .footer_Navs_row
+  .footer_Navs_row_col
+  ul
+  li:first-of-type {
+  margin-top: 12px;
+}
+*
+  body
+  .container_website
+  footer
+  .footer_Navs
+  .footer_Navs_row
+  .footer_Navs_row_col
+  ul
+  li
+  a {
+  text-decoration: none;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #067a46;
+}
+*
+  body
+  .container_website
+  footer
+  .footer_Navs
+  .footer_Navs_row
+  .footer_Navs_row_col
+  ul
+  li
+  a:hover {
+  text-decoration: underline;
+}
+*
+  body
+  .container_website
+  footer
+  .footer_Navs
+  .footer_Navs_row
+  .footer_Navs_row_col
+  h4 {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  color: #056835;
+}
+*
+  body
+  .container_website
+  footer
+  .footer_Navs
+  .footer_Navs_row
+  .footer_Navs_row_col
+  p {
+  margin-top: 15.4px;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #242424;
+}
+* body .container_website footer .footer_Social {
+  width: 100%;
+  margin-top: 54px;
+  padding: 25px 6%;
+  border-top: 1px solid #e4e4e4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+* body .container_website footer .footer_Social .footer_Social_title {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  flex-wrap: wrap;
+}
+* body .container_website footer .footer_Social .footer_Social_title h5 {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #242424;
+  margin-bottom: 0;
+}
+* body .container_website footer .footer_Social .footer_Social_title ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+* body .container_website footer .footer_Social .footer_Social_title ul li a {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #067a46;
+  text-decoration: none;
+}
+*
+  body
+  .container_website
+  footer
+  .footer_Social
+  .footer_Social_title
+  ul
+  li
+  a:hover {
+  text-decoration: underline;
+}
+* body .container_website footer .footer_Social .footer_Social_img {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+}
+* body .container_website footer .footer_Social .footer_Social_img a {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 7px;
+  transition: all 0.4s;
+}
+*
+  body
+  .container_website
+  footer
+  .footer_Social
+  .footer_Social_img
+  a:nth-of-type(1) {
+  background: #1877f2;
+  border: 1.5px solid #1877f2;
+  padding: 5px 7px 0 7px;
+}
+*
+  body
+  .container_website
+  footer
+  .footer_Social
+  .footer_Social_img
+  a:nth-of-type(2) {
+  background: #1da1f2;
+  border: 1.5px solid #1da1f2;
+}
+*
+  body
+  .container_website
+  footer
+  .footer_Social
+  .footer_Social_img
+  a:nth-of-type(3) {
+  background: #e1306c;
+  border: 1.5px solid #e1306c;
+}
+* body .container_website footer .footer_Social .footer_Social_img a svg path {
+  transition: all 0.4s;
+}
+*
+  body
+  .container_website
+  footer
+  .footer_Social
+  .footer_Social_img
+  a:hover:nth-of-type(1) {
+  background: transparent;
+}
+*
+  body
+  .container_website
+  footer
+  .footer_Social
+  .footer_Social_img
+  a:hover:nth-of-type(1)
+  svg
+  path {
+  fill: #1877f2;
+}
+*
+  body
+  .container_website
+  footer
+  .footer_Social
+  .footer_Social_img
+  a:hover:nth-of-type(2) {
+  background: transparent;
+}
+*
+  body
+  .container_website
+  footer
+  .footer_Social
+  .footer_Social_img
+  a:hover:nth-of-type(2)
+  svg
+  path {
+  fill: #1da1f2;
+}
+*
+  body
+  .container_website
+  footer
+  .footer_Social
+  .footer_Social_img
+  a:hover:nth-of-type(3) {
+  background: transparent;
+}
+*
+  body
+  .container_website
+  footer
+  .footer_Social
+  .footer_Social_img
+  a:hover:nth-of-type(3)
+  svg
+  path {
+  fill: #e1306c;
+}
+@media screen and (min-width: 3160px) {
+  * body .container_website main .section_Banner {
+    height: 650px;
+    background-image: url("https://img.hellofresh.com/c_fill,f_auto,fl_lossy,h_1300,q_auto:eco,w_3160/hellofresh_website/us/cms/homepage/bannersUS/Home_Page_-_Top_Banner_-_Desktop_v3.jpg");
+  }
+}
+@media screen and (min-width: 1520px) {
+  * body .container_website {
+    width: 1520px;
+    margin: auto;
+  }
+  * body .container_website main .section_Banner {
+    height: 650px;
+    background-image: url("https://img.hellofresh.com/c_fill,f_auto,fl_lossy,h_820,q_auto:eco,w_1534/hellofresh_website/us/cms/homepage/bannersUS/Home_Page_-_Top_Banner__-_Mobile_v3.jpg");
+  }
+}
+@media screen and (max-width: 1350px) {
+  *
+    body
+    .container_website
+    main
+    .section_WhyHelloFresh
+    .section_WhyHelloFresh_row {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1220px) {
+  *
+    body
+    .container_website
+    main
+    .section_WhyHelloFresh
+    .section_WhyHelloFresh_row {
+    width: 95%;
+    gap: 40px;
+  }
+  *
+    body
+    .container_website
+    main
+    .section_HelloFreshPics
+    .section_HelloFreshPics_row {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 1130px) {
+  * body .container_website main .section_ViewOurPlans {
+    gap: 40px;
+  }
+  *
+    body
+    .container_website
+    main
+    .section_ViewOurPlans
+    .section_ViewOurPlans_img {
+    width: 50%;
+  }
+  *
+    body
+    .container_website
+    main
+    .section_ViewOurPlans
+    .section_ViewOurPlans_img
+    img {
+    width: 100%;
+  }
+  *
+    body
+    .container_website
+    main
+    .section_ViewOurPlans
+    .section_ViewOurPlans_title {
+    width: 50%;
+  }
+  *
+    body
+    .container_website
+    main
+    .section_ViewOurPlans
+    .section_ViewOurPlans_title
+    h2 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  *
+    body
+    .container_website
+    main
+    .section_ViewOurPlans
+    .section_ViewOurPlans_title
+    ul
+    li
+    a {
+    font-size: 14px;
+    line-height: 28px;
+  }
+  *
+    body
+    .container_website
+    main
+    .section_ViewOurPlans
+    .section_ViewOurPlans_title
+    button {
+    width: 50%;
+    font-size: 14px;
+    padding: 8px 23.375px 12.4px 24px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  * body .container_website header .header_logoItem {
+    order: 2;
+    transform: translate(-50%);
+  }
+  * body .container_website header .header_logoItem nav {
+    display: none;
+  }
+  * body .container_website header .bar {
+    display: block;
+    order: 3;
+  }
+  * body .container_website header .header_loginBtn {
+    order: 1;
+  }
+}
+@media screen and (max-width: 900px) {
+  *
+    body
+    .container_website
+    main
+    .section_WhyHelloFresh
+    .section_WhyHelloFresh_row {
+    flex-wrap: wrap;
+  }
+  * body .container_website main .section_RecipeWeek .section_RecipeWeek_row {
+    padding: 0 10px;
+  }
+  *
+    body
+    .container_website
+    main
+    .section_RecipeWeek
+    .section_RecipeWeek_row
+    .section_RecipeWeek_row_col:nth-of-type(4) {
+    display: none;
+  }
+  *
+    body
+    .container_website
+    main
+    .section_RecipeWeek
+    .section_RecipeWeek_row
+    .section_RecipeWeek_row_left {
+    left: 3%;
+  }
+  *
+    body
+    .container_website
+    main
+    .section_RecipeWeek
+    .section_RecipeWeek_row
+    .section_RecipeWeek_row_right {
+    right: 3%;
+  }
+}
+@media screen and (max-width: 760px) {
+  * body .container_website main .section_ViewOurPlans {
+    flex-wrap: wrap;
+  }
+  *
+    body
+    .container_website
+    main
+    .section_ViewOurPlans
+    .section_ViewOurPlans_title {
+    width: 100%;
+  }
+  *
+    body
+    .container_website
+    main
+    .section_ViewOurPlans
+    .section_ViewOurPlans_title
+    ul {
+    text-align: center;
+    margin-top: 25px;
+  }
+  *
+    body
+    .container_website
+    main
+    .section_ViewOurPlans
+    .section_ViewOurPlans_img {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 705px) {
+  * body .container_website main .section_RecipeWeek .section_RecipeWeek_row {
+    padding: 0 10px;
+  }
+  *
+    body
+    .container_website
+    main
+    .section_RecipeWeek
+    .section_RecipeWeek_row
+    .section_RecipeWeek_row_col:nth-of-type(3) {
+    display: none;
+  }
+  *
+    body
+    .container_website
+    main
+    .section_RecipeWeek
+    .section_RecipeWeek_row
+    .section_RecipeWeek_row_left {
+    left: 3%;
+  }
+  *
+    body
+    .container_website
+    main
+    .section_RecipeWeek
+    .section_RecipeWeek_row
+    .section_RecipeWeek_row_right {
+    right: 3%;
+  }
+}
+@media screen and (max-width: 540px) {
+  * body .container_website main .section_Banner {
+    background-position: 0% 50%;
+  }
+  * body .container_website main .section_Banner .section_Banner_item {
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    border-radius: 5px;
+    padding: 10px 12px;
+  }
+  * body .container_website footer .footer_Social .footer_Social_title {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  * body .container_website main .section_Banner .section_Banner_item h1 {
+    font-size: 28px;
+    line-height: 45px;
+  }
+  * body .container_website main .section_Banner .section_Banner_item p {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  * body .container_website main .section_Banner .section_Banner_item button {
+    margin-top: 23px;
+    padding: 8px 20px 10px 16px;
+  }
+  * body .container_website main .section_Banner .section_Banner_item a {
+    width: 30px;
+    height: 30px;
+    margin-top: 50px;
+  }
+  * body .container_website main .section_Banner .section_Banner_item a svg {
+    width: 15px;
+    height: 8px;
+  }
+  * body .container_website main .section_RecipeWeek h1 {
+    font-size: 25px;
+    line-height: 36px;
+  }
+  * body .container_website main .section_RecipeWeek p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  *
+    body
+    .container_website
+    main
+    .section_RecipeWeek
+    .section_RecipeWeek_row
+    .section_RecipeWeek_row_col:nth-of-type(2) {
+    display: none;
+  }
+  * body .container_website main .section_Plans .section_Plans_item h1 {
+    font-size: 32px;
+    line-height: 46px;
+  }
+  * body .container_website main .section_Plans .section_Plans_item p {
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 10px;
+  }
+  * body .container_website main .section_Plans .section_Plans_item button {
+    padding: 8px 23.375px 12.4px 24px;
+  }
+  * body .container_website main .section_QA h1 {
+    font-size: 28px;
+    line-height: 42px;
+  }
+  * body .container_website main .section_QA .section_QA_row {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 370px) {
+  * body .container_website header {
+    gap: 20px;
+  }
+  * body .container_website header .header_loginBtn button {
+    padding: 5px 10px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  * body .container_website header .header_logoItem {
+    transform: translate(-10%, 0%);
+  }
+  *
+    body
+    .container_website
+    main
+    .section_ViewOurPlans
+    .section_ViewOurPlans_title
+    ul {
+    text-align: left;
+    padding-left: 10px;
+  }
+} /*# sourceMappingURL=style.css.map */
